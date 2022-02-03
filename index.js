@@ -8,8 +8,5 @@ $(function () {
 })
 
 $(document).ready(function(){
-    $(window).on("scroll", function(){
-       $('[data-toggle="tooltip"]').tooltip().mouseover();
-       setTimeout(function(){ $('[data-toggle="tooltip"]').tooltip('hide'); }, 1000);
-    });
+    $('#immediateHelp').tooltip('show')
 });
