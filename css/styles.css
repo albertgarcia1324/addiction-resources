@@ -63,10 +63,18 @@ header h2 {
     background-color: #FDEBF7;
 }
 
+.immediate-help {
+    font-size: 24px;
+}
+
 .immediate-help:hover {
     text-decoration: none;
     color: red;
     transition: color .5s;
+}
+
+.span {
+    color: red;
 }
 
 .btn {
@@ -90,10 +98,6 @@ header h2 {
     width: 100%;
     background-color: #FDEBF7;
     color: black;
-}
-
-.card-body {
-    background-color: whitesmoke;
 }
 
 .tab-content {
