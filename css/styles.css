@@ -51,7 +51,6 @@ header h2 {
     margin: 0;
     padding: px;
     background-color: #B667F1;
-    /* background-image: linear-gradient(to right, #7A0BC0, #FDEBF7); */
     color: white;
 }
 
@@ -59,22 +58,20 @@ header h2 {
     margin-left: 50px;
 }
 
+.logo {
+    color: #FDEBF7;
+}
+
 .btn-contact {
     background-color: #FDEBF7;
 }
 
 .immediate-help {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .immediate-help:hover {
-    text-decoration: none;
-    color: red;
     transition: color .5s;
-}
-
-.span {
-    color: red;
 }
 
 .btn {
@@ -84,6 +81,14 @@ header h2 {
 #urgentForm {
     text-align: center;
     margin: 0 auto;
+}
+
+.m-body-1, .modal-body {
+    background-color: whitesmoke;
+}
+
+.modal-footer {
+    background-color: whitesmoke;
 }
 
 #urgentModal {
@@ -100,6 +105,16 @@ header h2 {
     color: black;
 }
 
+.img-top {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.contact {
+    color: #B667F1;
+}
+
 .tab-content {
     border: 1px solid #DDD;
     border-top: none;
@@ -114,7 +129,20 @@ header h2 {
     border: solid #5637DD;
 }
 
+.card-header {
+    background-color: #FDEBF7;
+}
+
+.card {
+    border: none;
+}
+
+.bg-help {
+    background-color: white;
+}
+
 .site-footer {
+    width: 100%;
     height: 100px;
     background-image: linear-gradient(#B667F1, white);
     padding: 20px 0;
