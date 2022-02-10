@@ -133,8 +133,13 @@ header h2 {
     background-color: #FDEBF7;
 }
 
-.card {
+.card, .card-text {
     border: none;
+    line-height: 1.8;
+}
+
+.btn {
+    margin: 0 4px 0;
 }
 
 .bg-help {
